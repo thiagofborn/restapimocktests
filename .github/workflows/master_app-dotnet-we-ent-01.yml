@@ -7,6 +7,9 @@ on:
   push:
     branches:
       - master
+    paths-ignore:
+      - '**.md'
+      - 'media/**'
   workflow_dispatch:
 
 jobs:
