@@ -15,3 +15,14 @@ $host/swagger/v1/swagger.json
 ```
 As per the picture bellow:
 ![](media/swagger-version-01.png)
+
+
+## On Azure API Management side import the schema
+
+On the Azure Portal go to your APIM and then **APIs** then **OpenAPI**
+
+![](media/swagger-import-apim-01.png)
+
+Now add the address with the swagger schema.
+
+![](media/swagger-version-apim-01.png)
